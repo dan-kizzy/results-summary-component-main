@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: number;
+    src: url(/assets/fonts/static/HankenGrotesk-Medium.ttf);
+}
+@font-face{
+    font-family: general;
+    src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+body{
+    background-color: hsl(241, 100%, 89%);
+    font-family: general;
+}
+.container{
+    width: 40%;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 10px;
+    display: flex;
+}
+.left-section,.right-section{
+    width: 100%;
+}
+.left-section{
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 10px;
+    color: hsl(221, 100%, 96%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+h1{
+    color: white;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: purple;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.number{
+    font-size: 3rem;
+    font-family: number;
+}
+.circle p{
+    color: hsl(252, 100%, 80%);
+}
+.right-section{
+    padding: 15px;
+}
+.reaction{
+    /* background-color: red; */
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+}
+.left{
+    display: flex;
+    gap: 10px; 
+}
+.hundred{
+    color: hsla(0, 0%, 50%, 0.8);
+    font-weight: bold;
+}
+.right{
+    font-weight: bold;
+}
+#text-react{
+    color: hsl(0, 100%, 67%);
+}
+#reaction{
+    background-color: hsla(0, 97%, 95%, 1);
+}
+#text-memory{
+    color: hsl(39, 100%, 56%);
+}
+#memory{
+    background-color: hsla(39, 100%, 95%, 1);
+}
+#text-verbal{
+color: hsl(166, 100%, 37%);    
+}
+#Verbal{
+    background-color: hsla(166, 100%, 95%, 1);
+}
+#text-visual{
+    color: hsl(234, 85%, 45%);
+}
+#visual{
+    background-color: hsl(234, 85%, 95%);
+}
+button{
+    width: 15rem;
+    border-radius: 40px;
+    height: 3rem;
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+    border: 0px;
+    margin-top: 90px;
+}
+button:hover{
+ background: linear-gradient(hsla(256, 72%, 46%, 1),hsl(234, 85%, 45%));
+    cursor: pointer;
+}
